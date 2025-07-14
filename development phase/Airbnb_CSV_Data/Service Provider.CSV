@@ -1,0 +1,22 @@
+id,email,"phone n.o",name,type,"service fee"
+81,"info@smartshine cleaning.com",312-040-2134,"SmartShine Cleaning Co.","Cleaning service ",45.000
+82,"contact@probit plumbing.com",213-345-5211,"Probit Plumbing","Plumbing service",65.000
+83,"service@volt edge electricals.com",411-900-3321,"Volt Edge Electricals ","Electrician service ",50.000
+84,"name@doodlewise repairs.com",511-099-4333,"DoodleWise Repairs","Repair services",85.500
+85,"contact@delicious delicacies.com",602-067-4444,"Delicious Delicacies","Cooking sevice ",25.000
+86,"name@sillwood tech support.com",900-233-3445,"Sillwood Tech Support","IT service",90.000
+87,"infor@kukie meals.com",712-322-5555,"Kukie Meals","Catering service",105.500
+88,"service@beauty hair salon.com",421-678-0000,"Beauty Hair Salon","Hairdressing service",150.340
+89,"name@nails by susie.com",302-555-6723,"Nails by Susie","Manicure and pedicure service ",165.500
+90,"contact@fancy cuts barber.com",222-700-3421,"Fancy Cuts Barber","Barber service ",130.000
+91,"infor@luxurious touch massage.com",503-333-0921,"Luxurious Touch Massage","Massage service ",200.500
+92,"name@freshnest dry cleaners.com",303-328-0711,"FreshNest Dry Cleaners","Dry cleaning service",250.000
+93,"name@loving touch care.com",754-090-2100,"Loving Touch Care ","Babysitting service",300.000
+94,"service@sour guard security.com",621-050-4233,"Sour Guard Security","Security service",350.000
+95,"contact@maintenance breed.com",402-222-7801,"Maintenance Breed","Pool service",130.000
+96,"infor@fit hub centre.com",600-231-8080,"Fit Hub Centre","Gym service",125.000
+97,"name@one time fix.com",300-218-8210,"One Time Fix","Gadgets repair service",100.000
+98,"service@soccer hub training.com",206-777-0544,"Soccer Hub Training","Football coaching ",145.500
+99,"contact@tennis way training.com",699-033-5477,"Tennis Way Training ","Tennis lessons",135.500
+100,"info@swift link relocations.com",890-311-5464,"Swift Link Relocations ","Moving service",140.500
+101,NULL,NULL,NULL,,NULL

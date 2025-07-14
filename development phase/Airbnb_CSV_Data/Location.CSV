@@ -1,0 +1,21 @@
+id,city,country,name,region
+1,Toronto,Canada,,"North America "
+2,"Mexico City",Mexico,,"North America "
+3,Cairo,Egypt,,"Northern Africa"
+4,Madrid,Spain,,"Iberian Peninsula"
+5,Rome,Italy,,"Southern Europe"
+6,Lisbon,Portugal,,"Iberian Peninsula"
+7,Athens,Greece,,"Southern Europe"
+8,Oslo,Norway,,Scandinavia
+9,Brussels,Belgium,,"Western Europe"
+10,Amsterdam,"Netherlands ",,"Wesren Europe"
+11,"New Delhi","India ",,"South Asia "
+12,Beijing,China,,"East Asia"
+13,Luanda,Angola,,"Central Africa"
+14,Dakar,Senegal,r,"West Africa "
+15,Vienna,Austria,,"Central Europe"
+16,"New York City","United States ",,"North America "
+17,Tokyo,"Japan ",,"East Asia"
+18,Seoul,"South Korea",,"East Asia"
+19,Moscow,"Russia ",,"Eastern Europe"
+20,Sydney,Australia,,Australia

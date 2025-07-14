@@ -1,0 +1,8 @@
+id,type,code,name
+1,Safety,NULL,"Fire extinguisher"
+2,Health,NULL,"Hand Sanitizer needs to be available"
+3,Noise,NULL,"Noise monitoring devices "
+4,Legal,NULL,"Guest Identification"
+5,Financial,NULL,"Tax should be charged for guest's extension period"
+6,Environmental,NULL,"Recycle Bins for waste "
+7,Accessibility,NULL,"Proper parking space"

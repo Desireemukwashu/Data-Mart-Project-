@@ -1,0 +1,14 @@
+rating_id,listing_id,rating_score,rating_type
+1,1,3.00000,communication
+2,2,2.00000,friendliness
+3,3,5.00000,accuracy
+4,4,4.00000,amenities
+5,5,1.00000,cleanliness
+6,6,3.00000,politeness
+7,7,5.00000,responsiveness
+8,8,2.00000,"noise level"
+9,9,1.00000,privacy
+10,10,5.00000,security
+11,11,4.00000,"amount of fresh air"
+12,1,2.00000,scenery
+13,3,3.00000,lighting
