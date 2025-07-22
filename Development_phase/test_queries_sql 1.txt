@@ -1,0 +1,83 @@
+-- Test case 1: Evaluating listing performance by room type
+-- in this query we want to find the total number of listings and the average price per night,
+-- we join the listing and payment tables for us to get the total earnings.
+-- we are also able to identify the room types which are giving us the highest total sales.   
+
+SELECT
+    listing.room_type,
+    COUNT(listing.id) AS total_listings,
+    ROUND(AVG(listing.price_per_night), 2 ) AS average_price,
+    ROUND(SUM(payment.amount_paid), 2) AS total_earnings
+FROM
+    Listing
+Join
+    Payment ON listing.host_id = payment.host_id
+GROUP BY
+    listing.room_type
+ORDER BY
+    total_earnings DESC;  
+    
+    
+    
+    
+    -- Test case 2: this query collects information about hosts and their designated housekeepers
+    -- also retrieves the amenities and insurance details in each host's property,
+    -- host, housekeeper, amenities, location and insurance are the tables used to join data
+    
+    
+SELECT
+    host.first_name || ' ' || host.last_name AS host_name,
+    host.email AS host_email,
+    housekeeper.first_name || ' ' || housekeeper.last_name AS housekeeper_name,
+    amenities.name AS amenities_name,
+    amenities.type AS amenities_type,
+    location.city,
+    location.country,
+    location.name AS location_name,
+    location.region,
+    insurance.coverage_type,
+    insurance.coverage_period,
+    insurance.provider_name
+FROM host
+JOIN housekeeper ON housekeeper.id = host.host_id
+JOIN amenities ON amenities.property_id = host.host_id
+JOIN location ON location.id = amenities.property_id
+JOIN insurance ON 1 = 1
+ORDER BY host.first_name; 
+
+
+
+
+
+-- Test case 3: Analyzing room type performance in terms of bookings, earnings and regions
+--
+-- This query calculates:
+-- * the average price per night for each room type,
+-- * The total bookings per listing.
+-- * The total earnings from payments linked to bookings and region.
+
+-- Joins four tables: listing, booking, payment and region
+-- Also helps to identify which room types yield the highest revenue.
+
+
+SELECT
+    listing.room_type,
+    listing.address AS region_info,
+    COUNT(booking.booking_id) AS total_bookings,
+    ROUND(AVG(listing.price_per_night), 2) AS average_price,
+    ROUND(SUM(payment.amount_paid), 2) AS total_earnings
+FROM listing
+LEFT JOIN booking ON listing.id = booking.booking_id
+LEFT JOIN payment ON listing.host_id = payment.host_id
+GROUP BY listing.room_type, listing.address
+ORDER BY total_earnings DESC;   
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+id,property_id,name,type
+1,1,patio,NULL
+2,1,gym,NULL
+3,2,kitchen,NULL
+4,3,oven,NULL
+5,4,"bread maker",NULL
+6,5,pool,NULL
+7,6,dishwasher,NULL
+8,7,"washing machine",NULL
+9,8,dryer,NULL
+10,9,microwave,NULL
+11,10,toaster,NULL
+12,11,iron,NULL
+13,12,refridgerator,NULL
+14,13,"coffee maker",NULL
+15,14,"bbq grill",NULL
+16,15,tub,NULL
+17,16,blender,NULL
+18,17,stove,NULL
+19,18,couch,NULL
+20,19,television,NULL

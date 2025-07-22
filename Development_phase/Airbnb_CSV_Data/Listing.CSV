@@ -1,0 +1,12 @@
+id,host_id,price_per_night,room_type,rating,address
+1,5,65.00000,bedroom,NULL,NULL
+2,3,82.00000,bathroom,NULL,NULL
+3,8,90.00000,"living room",NULL,NULL
+4,6,98.00000,kitchen,NULL,NULL
+5,2,100.00000,pantry,NULL,NULL
+6,12,120.00000,"game room",NULL,NULL
+7,9,230.00000,"laundry room",NULL,NULL
+8,2,250.00000,"dining room",NULL,NULL
+9,1,280.00000,"private room",NULL,NULL
+10,10,300.00000,"guest suite",NULL,NULL
+11,4,310.00000,"home theater",NULL,NULL
