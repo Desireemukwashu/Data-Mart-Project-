@@ -31,7 +31,7 @@ Setting it up:
 
 2) **Download the repository**
  
-   -git clone https://github.com/yourusername/Airbnb-Database-Project.git
+   -git clone https://github.com/Desireemukwashu/Data-Mart-Project-.git
 
 3) **Open schema sql**
   
